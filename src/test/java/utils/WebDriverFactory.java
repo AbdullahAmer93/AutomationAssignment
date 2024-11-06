@@ -24,7 +24,7 @@ public class WebDriverFactory {
                 // Get the browser selection from config file
                 String browser = prop.getProperty("browser");
                 if (browser.equalsIgnoreCase("chrome")) {
-                    System.setProperty("webdriver.chrome.driver", "C:\\Users\\AmerA3\\Desktop\\webdrivers\\chromedriver.exe"); // Update this path
+                    System.setProperty("webdriver.chrome.driver", "C:\\Users\\AmerA3\\Desktop\\webdrivers\\chromedriver.exe");
                     driver = new ChromeDriver();
                 } else if (browser.equalsIgnoreCase("firefox")) {
                     System.setProperty("webdriver.gecko.driver", "path/to/geckodriver"); // Update this path

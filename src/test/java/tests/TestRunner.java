@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",  // Path to the feature files
         glue = "StepDefinition",                 // Path to the step definition package
-        plugin = {"pretty", "html:target/cucumber-reports"},  // Report options (pretty and HTML report)
+        plugin = {"pretty", "html:target/cucumber-reports"},
         monochrome = true,  // To make console output more readable
-        tags = "@smoke"  // Optional: Specify a tag to run specific tests (e.g., @smoke)
+        tags = "@smoke"  // Optional
 )
 public class TestRunner {
     // This class will be used to run the tests

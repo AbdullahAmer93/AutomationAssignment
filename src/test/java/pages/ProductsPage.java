@@ -6,12 +6,12 @@ import utils.WebDriverFactory;
 
 public class ProductsPage {
 
-    private WebDriver driver = WebDriverFactory.getDriver();
+    private final WebDriver driver = WebDriverFactory.getDriver();
 
     // Elements
-    private By mostExpensiveProduct1 = By.xpath("//div[@class='inventory_item'][1]"); // Example XPath
-    private By mostExpensiveProduct2 = By.xpath("//div[@class='inventory_item'][2]"); // Example XPath
-    private By cartButton = By.className("shopping_cart_link");
+    private By mostExpensiveProduct1 = By.xpath("//div[4]/div[@safeclass~'\\binventory_item_description\\b']");
+    private By mostExpensiveProduct2 = By.xpath("//div[1]/div[@safeclass~'\\binventory_item_description\\b']");
+    private By cartButton = By.className("btn btn_primary btn_small btn_inventory ");
 
     // Actions
     public void addMostExpensiveProductsToCart() {

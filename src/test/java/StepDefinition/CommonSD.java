@@ -21,7 +21,7 @@ public class CommonSD {
     private CartPage cartPage = new CartPage();
     private CheckoutPage checkoutPage = new CheckoutPage();
     private OverviewPage overviewPage = new OverviewPage();  // Create an instance of OverviewPage
-    private WebDriver driver = WebDriverFactory.getDriver();
+    private final WebDriver driver = WebDriverFactory.getDriver();
 
     public CommonSD() throws IOException {
     }
