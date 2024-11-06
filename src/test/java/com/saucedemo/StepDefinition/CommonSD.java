@@ -1,18 +1,19 @@
-package StepDefinition;
+package com.saucedemo.StepDefinition;
 
+import com.saucedemo.utils.WebDriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-import static org.junit.Assert.*;
 
 import org.openqa.selenium.WebDriver;
-import pages.LoginPage;
-import pages.ProductsPage;
-import pages.CartPage;
-import pages.CheckoutPage;
-import pages.OverviewPage;
-import utils.WebDriverFactory;
+import com.saucedemo.pages.LoginPage;
+import com.saucedemo.pages.ProductsPage;
+import com.saucedemo.pages.CartPage;
+import com.saucedemo.pages.CheckoutPage;
+import com.saucedemo.pages.OverviewPage;
+
 import java.io.IOException;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CommonSD {
 

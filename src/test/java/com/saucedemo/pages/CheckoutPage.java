@@ -1,9 +1,8 @@
-package pages;
+package com.saucedemo.pages;
 
+import com.saucedemo.utils.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import utils.WebDriverFactory;
 
 public class CheckoutPage {
 
