@@ -1,4 +1,4 @@
-@feature
+@SmokeTest
 Feature: User Login and Shopping Flow
 
   Scenario: Login with invalid credentials and verify error messages

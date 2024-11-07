@@ -1,7 +1,7 @@
 package com.saucedemo.tests;
 import org.junit.runner.RunWith;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -13,8 +13,8 @@ import cucumber.api.junit.Cucumber;
                 "json:target/cucumber-reports/cucumber.json"   // Generates a JSON report
         },
         monochrome = true,  // Ensures that console output is more readable (no escape characters)
-        tags = "@SmokeTest",  // If you want to run tests with a specific tag, for example, @SmokeTest
-        strict = true
+        tags = "@SmokeTest" // If you want to run tests with a specific tag, for example, @SmokeTest
+
 )
 
 public class TestRunner {

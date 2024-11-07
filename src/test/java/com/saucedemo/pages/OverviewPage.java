@@ -13,7 +13,7 @@ public class OverviewPage {
 
     // Elements
     private By overviewTitle = By.className("title");
-    private By itemsList = By.cssSelector(".cart_list .cart_item");
+    private By itemsList = By.cssSelector(".cart_list.cart_item");
     private By itemsTotal = By.className("summary_subtotal_label");
     private By totalBeforeTax = By.className("summary_subtotal_label");
     private By checkoutFinishButton = By.id("finish");
