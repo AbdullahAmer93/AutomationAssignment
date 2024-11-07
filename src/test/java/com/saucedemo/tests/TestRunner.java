@@ -12,8 +12,8 @@ import io.cucumber.junit.CucumberOptions;
                 "html:target/cucumber-reports/cucumber.html",  // Generates an HTML report
                 "json:target/cucumber-reports/cucumber.json"   // Generates a JSON report
         },
-        monochrome = true,  // Ensures that console output is more readable (no escape characters)
-        tags = "@SmokeTest" // If you want to run tests with a specific tag, for example, @SmokeTest
+        monochrome = true,
+        tags = "@SmokeTest"
 
 )
 

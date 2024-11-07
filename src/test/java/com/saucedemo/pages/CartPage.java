@@ -23,7 +23,7 @@ public class CartPage {
     // Verifies that the correct products are in the cart
     public boolean verifyProductsInCart() {
         List<WebElement> productsInCart = driver.findElements(cartProducts);
-        return productsInCart.size() == 2; // Adjust according to the number of products you expect
+        return productsInCart.size() == 2;
     }
 
     // Click the checkout button

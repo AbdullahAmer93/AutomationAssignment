@@ -35,7 +35,7 @@ public class PropertiesLoader {
         return properties.getProperty("url");
     }
 
-    // Main method for testing purposes
+
     public static void main(String[] args) {
         try {
             // Load config.properties

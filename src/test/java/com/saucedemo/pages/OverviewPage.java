@@ -28,7 +28,7 @@ public class OverviewPage {
     public boolean verifyItemsInOverview() {
         // Check if the Overview page has the expected number of items (2 for this scenario)
         List<WebElement> items = driver.findElements(itemsList);
-        return items.size() == 2; // Adjust this based on the number of items in the cart
+        return items.size() == 2;
     }
 
     // Verify the total price before taxes
